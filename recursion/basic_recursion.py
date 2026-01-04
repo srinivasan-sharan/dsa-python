@@ -1,7 +1,7 @@
-def printName(n):
-    while n>1:
-        n-=1
-        printName(n)
-    print("Sharan")
+def printName(i, n):
+    if (i>n):
+        return
+    print('name')
+    printName(i+1, n) 
 
-printName(5)
+printName(1, 5)
