@@ -15,9 +15,14 @@ def revPrintN(i, n):
     print(i)
     revPrintN(i-1, n)
 
-revPrintN(n, n)
 
+def print1N(n):
+    if n<1:
+        return
+    print1N(n-1)
+    print(n)
 
+print1N(4)
 
 
 

@@ -9,8 +9,8 @@ def printNum(i,n):
 def printNum2(n):
     if (n<1):
         return
-    printNum2(n-1)
     print(n)
+    printNum2(n-1)
     
 
 printNum2(10)
